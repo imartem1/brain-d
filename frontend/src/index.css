@@ -1,0 +1,256 @@
+#root{
+    background-color: #1f1b1f;
+}
+.mySearch{
+    background: #1b0d0d;
+    margin-top: 50px;
+    padding: 50px 50px 50px 50px;
+    border-radius: 10px;
+}
+.myBtn {
+    background:#111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 50px;
+}
+myInput {
+    width: 100%;
+    padding: 5px 15px;
+    margin: 5px 0;
+    border: 1px solid black;
+    display: block;
+}
+.myModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0,0,0, 0.5);
+}
+
+.myModalContent {
+    padding: 25px;
+    background: white;
+    border-radius: 16px;
+    min-width: 250px;
+    background: #0f0f0f;
+}
+
+.myModal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #1f1b1f;
+    color:#1f1b1f;
+    height: 100%;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    /*font: normal 16px 'Roboto', sans-serif*/
+}
+.App{
+    background-color: #1f1b1f;
+    background: #1f1b1f;
+    width: 100%;
+    margin: auto;
+    padding-left: 0;
+    padding-top: 30px;
+    display: flex;
+}
+
+.container h1{
+    text-align:center;
+}
+
+.main_search{
+    margin-bottom: 20px;
+    display: flex;
+}
+.search_id{
+    color: rgb(255, 255, 255);
+}
+.search_id label{
+    color: rgb(255, 255, 255);
+}
+.side_panel{
+    margin: 5px;
+}
+.new_Page{
+    background-color: #1f1b1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.search_id input,
+.search_id textarea{
+    color: white;
+    font-family: inherit;
+}
+
+.btn {
+    background:#111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 50px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+.search_tracks{
+    background: #1f1b1f;
+    border-radius: 10px;
+}
+.search_tracks h2{
+    color: rgb(255, 255, 255);
+    text-align:center;
+}
+.track{
+    font-family: sans-serif;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.search_tracks > .track:last-child{
+    margin-bottom: 15px;
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2{
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+.bg-red{
+    background: #1f1b1f;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+.link-list{
+    list-style: none;
+    padding: 0;
+}
+.link-list li{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    color: white;
+}
+.data {
+    margin-top: 15px;
+}
+.data label{
+    display: block;
+    font-size: 25px;
+    color: #000000;
+    text-align:center;
+}
+
+.data textarea{
+    width: 600px;
+    height: 300px;
+    box-sizing: border-box;
+    border: none;
+    background: rgb(0, 0, 0);
+    border-bottom: 1px solid #ccc;
+    color: rgb(255, 255, 255);
+    padding: 15px 10px 10px;
+    outline: none;
+    font-family: inherit;
+    border-radius: 10px;
+}
+
+.main_action{
+    display: inline;
+    width: 100%;
+}
+
+.tabs{
+    background: #1f1b1f;
+    border-radius: 10px;
+    padding: 15px 10px 10px;
+    margin: 5px;
+    color: white;
+}
+
+.edit_view{
+    background-color: #1f1b1f;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 15px 10px 10px;
+}
+
+.visibility{
+    font-family: sans-serif;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 1px;
+    margin-left: 15px;
+    padding: 5px;
+    background: #1f1b1f;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.brightness{
+    color: blanchedalmond;
+}
+.transparency{
+    color: rgb(255, 255, 255);
+}
+.colorback{
+    color: rgb(255, 255, 255);
+}
+.model{
+    background: burlywood;
+    height: 800px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.submitForm{
+    margin-right: 1000px;
+}
+.navbar {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    background: #0f0f0f;
+}
+
+.navbar__links {
+    padding: 2px;
+    margin-left: auto;
+    color: white;
+}
+.navbar__link {
+    margin-top: 15px;
+    margin: 10px;
+}

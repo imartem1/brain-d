@@ -1,0 +1,11 @@
+.myBtn {
+    background:#111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 50px;
+}
