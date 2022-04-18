@@ -1,4 +1,4 @@
-from django.http import HttpResponse, JsonResponse
+from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
 from django.shortcuts import render
 from .models import Instance
 from django.contrib.auth.forms import UserCreationForm
@@ -15,6 +15,9 @@ class SignUpView(generic.CreateView):
 
 def index(request):
     return render(request, 'index.html', {})
+
+def login(request):
+    return HttpResponseRedirect('accounts/login/')
 
 def HomePageView(request):
     CHOICES = Instance.objects.all().values_list('id', flat=True)

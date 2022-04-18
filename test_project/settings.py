@@ -43,9 +43,6 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'allauth',
     'allauth.account',
-    'allauth.socialaccount',
-    'allauth.socialaccount.providers.weibo',
-    'allauth.socialaccount.providers.github',
     'rest_framework'
 ]
 
@@ -120,7 +117,8 @@ ACCOUNT_EMAIL_VERIFICATION='mandatory'
 ACCOUNT_EMAIL_REQUIRED=True
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_USERNAME_REQUIRED = False
-LOGIN_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = '/view_model'
+ACCOUNT_LOGIN_ON_EMAIL_CONFIRMATION = True
 
 
 
