@@ -1,3 +1,7 @@
+![screenshot](./screenshots/view1.png)
+![screenshot](./screenshots/view3.png)
+![screenshot](./screenshots/view2.png)
+
 ```
 cd frontend
 npm install
